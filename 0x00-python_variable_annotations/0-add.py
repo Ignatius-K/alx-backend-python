@@ -2,14 +2,14 @@
 
 """Module defines `add` function"""
 
-def add(num1: float, num2: float) -> float:
+def add(a: float, b: float) -> float:
     """Adds two float numbers
 
     Args:
-        num1: The first float number
-        num2; The second float number
+        a: The first float number
+        b: The second float number
 
     Return:
         The sum
     """
-    return num1 + num2
+    return a + b
