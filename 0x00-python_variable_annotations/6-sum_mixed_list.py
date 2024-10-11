@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Module defines the `sum_mixed_list` method"""
+
 from functools import reduce
 from typing import List, Union
 
