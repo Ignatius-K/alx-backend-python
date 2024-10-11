@@ -2,6 +2,7 @@
 
 """Module defines `add` function"""
 
+
 def add(a: float, b: float) -> float:
     """Adds two float numbers
 
