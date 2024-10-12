@@ -11,12 +11,11 @@ from typing import Any, Mapping, TypeVar, Union
 
 
 T = TypeVar('T')
-ValueType = Union[T, None]
 
 
 def safely_get_value(
-    dct: Mapping, key: Any, default: ValueType = None
-) -> ValueType:
+    dct: Mapping, key: Any, default: Union[T, None] = None
+) -> Union[Any, T]:
     """Safely gets value from dct"""
     if key in dct:
         return dct[key]
