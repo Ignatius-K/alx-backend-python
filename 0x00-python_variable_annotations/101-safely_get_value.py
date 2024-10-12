@@ -17,6 +17,7 @@ ValueType = Union[T, None]
 def safely_get_value(
     dct: Mapping, key: Any, default: ValueType = None
 ) -> ValueType:
+    """Safely gets value from dct"""
     if key in dct:
         return dct[key]
     else:
